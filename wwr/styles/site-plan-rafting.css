@@ -27,11 +27,14 @@ Fonts are separated by a | */
   --nav-hover-link-color: #457B9D;
   --nav-hover-background-color: #E63946;
 
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
 body {
   max-width: 960px;
   margin: 0 auto;
+  background-color: white;
   padding: 4em;
   font-size: 18px;
   text-align: center;
@@ -62,6 +65,10 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+.title1 {
+  color: white;
+}
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
