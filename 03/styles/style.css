@@ -1,0 +1,165 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato&display=swap" rel="stylesheet');
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+* {
+    border: 2px solid rgb(133, 133, 166);
+}
+
+.main-para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#active {
+    background-color: white;
+    color: steelblue;
+}
+
+#content {
+/*    background-color: #faeef8; */
+    background-color: #ffa6da;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;   
+}
+  
+.socialmedia {
+    padding: 10px;
+
+  }
+
+nav {
+    text-align: center;
+    text-decoration: none;
+  }
+
+nav a {
+    color: crimson;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: coral;
+    color: black;
+    text-decoration: none;
+}
+
+.home-title {
+    color: dodgerblue;
+}
+
+#hero-box {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+#home-grid {
+
+}
+
+#rivers-card {
+ 
+}
+
+#logo_link {
+    text-align: left;
+}
+
+#button-box {
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Rock Salt', serif;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'Rock Salt', serif;
+    font-size: 1,2em;
+    color: rgb(0, 0, 0);
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+.book {
+    background-color: chartreuse;
+    color: aqua;
+}
+
+.join {
+    background-color: crimson;
+    color: chocolate;
+}
+
+.book:hover {
+    background-color: darkorange;
+    color: yellow;
+}
+
+.join:hover {
+    background-color: darksalmon;
+    color: blue;
+}
+
+#background {
+    background-color: darkviolet;
+}
+
+.msg {
+    background-color: goldenrod;
+}
+
+.msg h2 {
+    color: brown;
+}
+
+.msg p {
+    color: deeppink;
+}
+
+footer {
+    background-color: black;
+    color: aqua;
+    text-decoration: none;
+}
+
+footer a {
+    color: darkseagreen;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+.icon {
+    width: 80px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.logo {
+        width: 300px;
+        height: 100%;
+        padding: 10px;
+        position: relative;
+}
