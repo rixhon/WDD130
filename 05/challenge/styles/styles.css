@@ -1,0 +1,35 @@
+#content {
+        background-color: #ffffff;
+    }
+
+#boxgrey {
+        background-color: #737373;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        height: 350px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+  }
+
+#circleimg {
+    display: inline-flex;
+    width: 220px;
+    height: 220px;
+    margin-right:50px;
+    margin-top: 60px;
+    border: 30px solid rgb(46, 46, 46);
+    border-width: 10px;
+    border-radius: 50%;
+ }
+
+#total {
+    text-align: center;
+    vertical-align: middle;
+}
