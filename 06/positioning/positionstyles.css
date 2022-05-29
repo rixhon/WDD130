@@ -152,26 +152,31 @@
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
-  z-index: 2;
-  width: 400px; 
-  height: 200px; 
+  width: 450px; 
+  height: 250px; 
   background-color: red; 
 } 
 .green6 {
-  z-index: 10;
-  width: 200px; 
-  height: 200px; 
+  position: relative;
+  z-index: 30;
+  top: 150px;
+  width: 250px; 
+  height: 250px; 
   background-color: green; 
 } 
 .yellow6 {
-  margin-left: 50px;
+  position: relative;
+  top: -300px;
+  left: 500px;
   z-index: 25;
-  width: 100px; 
-  height: 300px; 
+  width: 200px; 
+  height: 400px; 
   background-color: gold; 
 } 
 .blue6 {
-  justify-items: center;
+  position: relative;
+  top: -800px;
+  left: 200px;
   z-index: 20;
   width: 400px; 
   height: 400px; 
