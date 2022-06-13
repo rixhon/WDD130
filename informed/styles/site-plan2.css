@@ -24,7 +24,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #22577A  ;
   --nav-link-color: #C7F9CC;
   --nav-background-color: #38A3A5;
-  --nav-hover-link-color: #80ED99;
+  --nav-hover-link-color: #ffffff;
   --nav-hover-background-color: #57CC99;
 }
 
@@ -68,6 +68,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  text-align: justify;
 }
 .colors {
   width: 100%;
