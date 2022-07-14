@@ -33,11 +33,11 @@ nav {
     text-decoration: none;
     padding: 10px;
     text-align: right;
-  }
+}
 
 nav a {
     padding: 25px;
-    color: #22577A
+    color: #22577A;
     text-decoration: none;
 }
 
@@ -64,14 +64,14 @@ nav a:hover {
 /* ___HERO__background image_________*/
 #herohome {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     text-align: center;
 }
 
 #herohome-home {
-    grid-column: 1/4;
-    grid-row: 1/3;
+    grid-column: 1/6;
+    grid-row: 1/1;
     text-align: center;
     margin: 0 auto;
     height: 100%;
@@ -84,13 +84,14 @@ nav a:hover {
 
 /* ___HERO__first text over image__________*/
 #herohome-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
+    grid-column: 4/6;
+    grid-row: 1/1;
+    margin-top: -20px;
+    padding-right: 100px
 }
 /* ___HERO__second text over image_________*/
 .herohome-title {
-    margin-top: 250px;
+    margin-top: 200px;
     font-family: roboto, arial, helvetica, sans-serif;
     font-size: 1.5em;
 }
@@ -222,14 +223,14 @@ h3 {
 
 #dashherohome {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     text-align: center;
 }
 
 #dashherohome-home {
-    grid-column: 1/4;
-    grid-row: 1/3; 
+    grid-column: 1/6;
+    grid-row: 1/1; 
     text-align: center;
     margin: 0 auto;
     height: 100%;
@@ -242,9 +243,10 @@ h3 {
 
 /* ___HERO__first text over image_________*/
 #dashherohome-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column: 3/6;
+    grid-row: 1/1;
     margin-top: 10px;
+    padding-right: 100px;
 }
 /* ___HERO__second text over image_________*/
 .dashherohome-title {
@@ -343,3 +345,232 @@ p {
 /* ___EXAM PAGE_______________________________*/
 
 
+#examherohome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#examherohome-home {
+    grid-column: 1/6;
+    grid-row: 1/1; 
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+#examherohome-img {
+    width: 100%;
+}
+
+/* ___HERO__first text over image_________*/
+#examherohome-msg {
+    grid-column: 3/6;
+    grid-row: 1/1;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+/* ___HERO__second text over image_________*/
+.examherohome-title {
+    margin-top: 5px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.examherohome-subtitle {
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-size: 1em;
+    color: #1D3557;
+}
+
+/* ___below hero_________*/
+.examhomegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 1300px;  
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* ___3 images_________*/
+.examcard-img {
+    width: 100%;
+    transition: transform .5s;
+}
+
+.examcard-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+/* ___image 1_________*/
+.exam-card1 {
+    margin: 20px 0;
+}
+
+.exam-card1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+/* ___image 2_________*/
+.exam-card2 {
+    margin: 20px 0;
+}
+
+.exam-card2 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+/* ___image 3_________*/
+.exam-card3 {
+    margin: 20px 0;
+}
+
+.exam-card3 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+/* ___image 4_________*/
+.exam-card4 {
+    margin: 20px 0;
+}
+
+.exam-card4 {
+    grid-column: 8/9;
+    grid-row: 1/2;
+}
+
+/* ___image 5_________*/
+.exam-card5 {
+    margin: 20px 0;
+}
+
+.exam-card5 {
+    grid-column: 10/11;
+    grid-row: 1/2;
+}
+/* ___image 6_________*/
+.exam-card6 {
+    margin: 20px 0;
+}
+
+.exam-card6 {
+    grid-column: 2/3;
+    grid-row: 2/2;
+}
+/* ___image 7_________*/
+.exam-card7 {
+    margin: 20px 0;
+}
+
+.exam-card7 {
+    grid-column: 4/5;
+    grid-row: 2/2;
+}
+/* ___image 8_________*/
+.exam-card8 {
+    margin: 20px 0;
+}
+
+.exam-card8 {
+    grid-column: 6/7;
+    grid-row: 2/2;
+}
+/* ___image 9_________*/
+.exam-card9 {
+    margin: 20px 0;
+}
+
+.exam-card9 {
+    grid-column: 8/9;
+    grid-row: 2/2;
+}
+/* ___image 10_________*/
+.exam-card10 {
+    margin: 20px 0;
+}
+
+.exam-card10 {
+    grid-column: 10/11;
+    grid-row: 2/2;
+}
+
+
+/* ___text below images_________*/
+.exam-text {
+    grid-column: 2/11;
+    grid-row: 3/4;
+}
+/* ___image 11_________*/
+.exam-card11 {
+    margin: 20px 0;
+}
+
+.exam-card11 {
+    grid-column: 2/5;
+    grid-row: 4/4;
+}
+/* ___side image with text_________*/
+.examcarg11img {
+    width: 100%;
+    padding-top: 30px;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.examcard11text {
+    padding-left: 20px;
+    padding-top: 30px;
+    grid-column: 6/11;
+    grid-row: 4/5;
+}
+
+/* ___image 12_________*/
+.exam-card12 {
+    margin: 20px 0;
+}
+
+.exam-card12 {
+    grid-column: 2/5;
+    grid-row: 5/5;
+}
+
+/* ___side image with text_________*/
+.examcarg12img {
+    width: 100%;
+    padding-bottom: 80px;
+    border-radius: 50px 0px 0px 0px;
+}
+
+.examcard12text {
+    padding-left: 20px;
+    grid-column: 6/11;
+    grid-row: 5/5;
+}
+
+/* ___button_________*/
+.button-box {
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.book {
+    background-color: #1D3557;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    background-color: #57CC99;
+    color: rgb(255, 255, 255);
+}
